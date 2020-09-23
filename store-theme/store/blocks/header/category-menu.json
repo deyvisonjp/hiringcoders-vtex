@@ -1,0 +1,123 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-vestuario",
+      "menu-item#category-acessorios",
+      "menu-item#category-diversos"
+    ]
+  },
+  "menu-item#category-vestuario": {
+    "props": {
+      "id": "menu-item-category-vestuario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario---accessories/",
+        "noFollow": false,
+        "tagTitle": "vestuario",
+        "text": "Vestuário"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-vestuario"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-vestuario": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-vestuario"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-vestuario": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-vestuario-clothing",
+      "menu-item#category-vestuario-accessories",
+      "menu-item#category-vestuario-eyeglasses"
+    ]
+  },
+  "menu-item#category-vestuario-clothing": {
+    "props": {
+      "id": "menu-item-category-vestuario-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-vestuario-accessories": {
+    "props": {
+      "id": "menu-item-category-vestuario-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-vestuario-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-vestuario-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-acessorios": {
+    "props": {
+      "id": "menu-item-category-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios---decor/",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+  "menu-item#category-diversos": {
+    "props": {
+      "id": "menu-item-category-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios---decor/",
+        "noFollow": false,
+        "tagTitle": "Diversos",
+        "text": "Diversos"
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#banner",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "newsletter",
+      "rich-text#link"
+    ]
+  },
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "list-context.image-list#banner": {
+    "children": ["slider-layout#banner-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://i.ibb.co/Jt3TmZ5/banner-01.jpg",
+          "mobileImage": "https://i.ibb.co/c3Y9kqD/banner-01.jpg"
+        },
+        {
+          "image": "https://i.ibb.co/wYT4sXs/banner-02.jpg",
+          "mobileImage": "https://i.ibb.co/d7SDgqg/banner-02.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Top Produtos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#top"]
+  },
+  "list-context.product-list#top": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#top-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#top-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Agradecemos a**\nwww.gama.academy",
+      "blockClass": "link"
+    }
+  }
+}
