@@ -25,3 +25,8 @@
   padding-left: .5rem;
   padding-right: .5rem;
 }
+
+.caretIcon {
+  color: #F0F0F0;
+  text-shadow: 0px 1px 5px #813772;
+}

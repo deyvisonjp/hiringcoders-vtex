@@ -17,7 +17,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/vestuario---accessories/",
+        "href": "/Vestuario/",
         "noFollow": false,
         "tagTitle": "vestuario",
         "text": "Vestuário"
@@ -40,53 +40,37 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-vestuario-clothing",
-      "menu-item#category-vestuario-accessories",
-      "menu-item#category-vestuario-eyeglasses"
+      "menu-item#category-vestuario-camisas",
+      "menu-item#category-vestuario-jaquetas"
     ]
   },
-  "menu-item#category-vestuario-clothing": {
+  "menu-item#category-vestuario-camisas": {
     "props": {
-      "id": "menu-item-category-vestuario-clothing",
+      "id": "menu-item-category-vestuario-camisas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/vestuario---accessories/clothing/",
+        "href": "/Vestuario/Camisas",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "camisas",
+        "text": "Camisas"
       }
     }
   },
-  "menu-item#category-vestuario-accessories": {
+  "menu-item#category-vestuario-jaquetas": {
     "props": {
-      "id": "menu-item-category-vestuario-accessories",
+      "id": "menu-item-category-vestuario-jaquetas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/vestuario---accessories/accessories/",
+        "href": "/Vestuario/Jaquetas",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-vestuario-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-vestuario-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/vestuario---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "jaquetas",
+        "text": "Jaquetas"
       }
     }
   },
