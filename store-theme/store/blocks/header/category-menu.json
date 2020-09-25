@@ -82,10 +82,44 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acessorios---decor/",
+        "href": "/acessorios/",
         "noFollow": false,
         "tagTitle": "Acessórios",
         "text": "Acessórios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-acessorios"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-acessorios": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-acessorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-acessorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-acessorios-bone"
+    ]
+  },
+  "menu-item#category-acessorios-bone": {
+    "props": {
+      "id": "menu-item-category-acessorios-bone",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/bone",
+        "noFollow": false,
+        "tagTitle": "Bonés",
+        "text": "Bonés"
       }
     }
   },
@@ -97,10 +131,60 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acessorios---decor/",
+        "href": "/diversos/",
         "noFollow": false,
         "tagTitle": "Diversos",
         "text": "Diversos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-diversos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-diversos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-diversos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-diversos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-diversos-adesivos",
+      "menu-item#category-diversos-chaveiros"
+    ]
+  },
+  "menu-item#category-diversos-adesivos": {
+    "props": {
+      "id": "menu-item-category-diversos-adesivos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/diversos/adesivos",
+        "noFollow": false,
+        "tagTitle": "Adesivos",
+        "text": "Adesivos"
+      }
+    }
+  },
+  "menu-item#category-diversos-chaveiros": {
+    "props": {
+      "id": "menu-item-category-diversos-chaveiros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/diversos/chaveiros",
+        "noFollow": false,
+        "tagTitle": "Chaveiros",
+        "text": "Chaveiros"
       }
     }
   }

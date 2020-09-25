@@ -30,10 +30,10 @@
     "props": {
       "paymentMethods": [
         "MasterCard",
-        "Visa",
-        "Diners Club"
+        "Visa"
       ],
-      "blockClass": "payment-methods"
+      "blockClass": "payment-methods",
+      "showInColor": true
     }
   },
 
@@ -41,36 +41,32 @@
     "props": {
       "socialNetworks": [
         {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/deyvisonjpaula/"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "url": "https://www.instagram.com/deyvisondeveloper"
         }
-      ]
+      ],
+      "showInColor": true
     }
   },
 
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "rich-text#footer"
+      "rich-text#footer",
+      "image",
+      "rich-text#sobre"
     ],
     "props": {
-      "blockClass": "credits"
+      "blockClass": "footer"
     }
   },
+
   "rich-text#footer": {
     "props": {
-      "text": "Loja VTEX criada para o desafio final Hiring Coders",
+      "text": "VTEX - Criada para o desafio final Hiring Coders",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "footer"
@@ -116,9 +112,23 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "Loja VTEX criada para o desafio final Hiring Coders",
+      "text": "VTEX - Criada para o desafio final Hiring Coders",
       "blockClass": "footer",
       "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "image": {
+    "props": {
+      "width": 60,
+      "src": "https://i.ibb.co/k8Q3Dp3/logo-90px.png"
+    }
+  },
+  "rich-text#sobre": {
+    "props": {
+      "text": "[{OctaCode}](https://onedrive.live.com/view.aspx?resid=BE8F714CEFFFB90A!1052&ithint=file%2cpptx&authkey=!AJafW6L4Qs5oK2g)",
+      "textColor": "c-on-emphasis",
       "textPosition": "CENTER"
     }
   }
