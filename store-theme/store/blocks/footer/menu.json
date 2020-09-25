@@ -1,205 +1,113 @@
 {
-  "vtex.menu@2.x:menu#Products": {
+  "vtex.menu@2.x:menu#footer-acessorios": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
-    ]
-  },
-  "menu-item#news": {
-    "props": {
-      "id": "menu-item-news",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
-      }
-    }
-  },
-  "menu-item#blackfriday": {
-    "props": {
-      "id": "menu-item-black-friday",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
-      }
-    }
-  },
-  "menu-item#sale": {
-    "props": {
-      "id": "menu-item-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    }
-  },
-  "menu-item#personalization": {
-    "props": {
-      "id": "menu-item-personalization",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
-      }
-    }
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#acessorios",
+      "menu-item#bone"
     ]
   },
 
-  "menu-item#smartphones": {
+  "menu-item#acessorios": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-item-category-acessorios",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/acessorios/d",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
       }
     }
   },
 
-  "menu-item#videogames": {
+  "menu-item#bone": {
     "props": {
-      "id": "menu-item-videogames",
+      "id": "menu-item-bone",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "/acessorios/bone",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Bonés",
+        "text": "Bonés"
       }
     }
   },
 
-  "menu-item#tvs": {
-    "props": {
-      "id": "menu-item-tvs",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
-      }
-    }
-  },
-
-  "vtex.menu@2.x:menu#footer-bags": {
+  "vtex.menu@2.x:menu#footer-diversos": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "menu-item#diversos",
+      "menu-item#adesivos",
+      "menu-item#chaveiro"
     ]
   },
 
-  "menu-item#bags": {
+  "menu-item#diversos": {
     "props": {
-      "id": "menu-item-bags",
+      "id": "menu-item-diversos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
+        "href": "/diversos/d",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "Diversos",
+        "text": "Diversos"
       }
     }
   },
 
-  "menu-item#backpacks": {
+  "menu-item#adesivos": {
     "props": {
-      "id": "menu-item-backpacks",
+      "id": "menu-item-adesivos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/diversos/adesivos",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "Adesivos",
+        "text": "Adesivos"
       }
     }
   },
 
-  "menu-item#necessaire": {
+  "menu-item#chaveiro": {
     "props": {
-      "id": "menu-item-necessaire",
+      "id": "menu-item-chaveiro",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
+        "href": "/diversos/chaveiro",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "tagTitle": "Chaveiros",
+        "text": "Chaveiros"
       }
     }
   },
 
-  "vtex.menu@2.x:menu#footer-clothing": {
+  "vtex.menu@2.x:menu#footer-vestuario": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#vestuario",
+      "menu-item#camisas",
+      "menu-item#jaquetas"
     ]
   },
 
@@ -208,66 +116,61 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
+      "menu-item#vestuario-mobile",
+      "menu-item#acessorios-mobile",
       "menu-item#sale-mobile"
     ]
   },
 
-  "menu-item#clothing-mobile": {
+  "menu-item#vestuario-mobile": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-category-vestuario",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/vestuario/d",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Vestpário",
+        "text": "Vestuário"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#vestuario"]
   },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  "vtex.menu@2.x:submenu.accordion#vestuario": {
+    "children": ["vtex.menu@2.x:menu#vestuario-accordion"]
   },
 
-  "vtex.menu@2.x:menu#clothing-accordion": {
+  "vtex.menu@2.x:menu#vestuario-accordion": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#camisas",
+      "menu-item#jaquetas"
     ]
   },
 
-  "menu-item#decoration-mobile": {
+  "menu-item#acessorios-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "Acesórios",
+        "text": "Acessórios"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#acessorios"]
   },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  "vtex.menu@2.x:submenu.accordion#acessorios": {
+    "children": ["vtex.menu@2.x:menu#footer-acessorios-mobile"]
   },
 
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+  "vtex.menu@2.x:menu#footer-acessorios-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#bone"
     ]
   },
 
@@ -289,105 +192,56 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#bone"
     ]
   },
 
-  "menu-item#clothing": {
+  "menu-item#vestuario": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-category-vestuario",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/vestuario/d",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Vestuário",
+        "text": "Vestuário"
       }
     }
   },
 
-  "menu-item#shorts": {
+  "menu-item#camisas": {
     "props": {
-      "id": "menu-item-shorts",
+      "id": "menu-item-camisas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/vestuario/camisas",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Camisas",
+        "text": "Camisas"
       }
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#jaquetas": {
     "props": {
-      "id": "menu-item-tank-tops",
+      "id": "menu-item-jaquetas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/vestuario/jaquetas",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
-      }
-    }
-  },
-
-  "menu-item#shirts": {
-    "props": {
-      "id": "menu-item-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shirts",
-        "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
-      }
-    }
-  },
-
-  "menu-item#sweatshirt": {
-    "props": {
-      "id": "menu-item-sweat-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/sweatshirt",
-        "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
-      }
-    }
-  },
-
-  "menu-item#cropped": {
-    "props": {
-      "id": "menu-item-cropped",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/cropped",
-        "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
+        "tagTitle": "Jaquetas",
+        "text": "Jaquetas"
       }
     }
   }
+
 }
